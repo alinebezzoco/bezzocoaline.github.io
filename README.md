@@ -1,2 +1,2 @@
-# Aline Bezzzoco's Blog 
+# Aline Bezzoco's Blog 
 A personal blog created w/ Jekyll and Github pages
