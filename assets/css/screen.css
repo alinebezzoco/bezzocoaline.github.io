@@ -488,7 +488,7 @@ margin on the iframe, cause it breaks stuff. */
 .main-nav {
     position: relative;
     padding: 35px 40px;
-    margin: 0 0 30px 0;
+    margin: 0;
 }
 
 .main-nav a {
@@ -718,7 +718,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     width: 80%;
     max-width: 710px;
-    margin: 4rem auto;
+    margin: 0 auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
@@ -764,7 +764,7 @@ body:not(.post-template) .post-title {
 
 .post-meta {
     display: block;
-    margin: 1.75rem 0 0 0;
+    margin: 1.75rem 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
@@ -894,9 +894,9 @@ body:not(.post-template) .post-title {
 /* Break out larger images to be wider than the main text column
    the class is applied with jQuery */
 .post-content .full-img {
-    width: 126%;
+    width: 100%;
     max-width: none;
-    margin: 0 -13%;
+    margin: 5% auto;
 }
 
 /* The author credit area after the post */
