@@ -51,14 +51,14 @@ about: 'about.html'
             {% if post.categories.size > 0 %} 
                 {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
             {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+            <time class="post-date" datetime="{{ post.date | date:"%d-%m-%Y" }}">
                 {{ post.date | date_to_string }}
             </time> 
         </footer>
     </article>
 
     <!-- Capser below -->
-<!--     <article class="{{post_class}}">
+    <article class="{{post_class}}">
     <header class="post-header">
         <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
     </header>
@@ -69,9 +69,9 @@ about: 'about.html'
         {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
         {{author}}
         {{tags prefix=" on "}}
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+        <time class="post-date" datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMMM YYYY"}}</time>
     </footer>
-    </article> -->
+    </article>
     <!--  -->
 
     {% endfor %}

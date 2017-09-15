@@ -1,12 +1,12 @@
 name: aFRONTosa
-description: Desenvolvimento, empoderamento feminino e outras coisas
+description: Desenvolvimento web e mobile, empoderamento feminino e outras coisas
 meta_description: 
 
 markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
-baseurl: /
+baseurl: 'https://bezzocoaline.github.io/'
 domain_name: 'https://bezzocoaline.github.io/'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
