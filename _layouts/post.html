@@ -2,6 +2,7 @@
 layout: default
 disqus: true
 archive: false
+comments: true
 post_class: post-template
 ---
 
@@ -23,7 +24,6 @@ post_class: post-template
                    {{ page.categories | array_to_sentence_string | prepend: 'category: ' }}
                 {% endif %}                
                 <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-                <a href="{{ page.url }}index.html#disqus_thread" data-disqus-identifier="{{page.url}}"></a>
             </section>
         </header>
 
