@@ -49,7 +49,7 @@ about: 'about.html'
                 {{ site.author }}
             {% endif %}
             {% if post.categories.size > 0 %} 
-                <a href="{{ page.categories }}"> {{ post.categories | array_to_sentence_string | prepend: 'on ' }} </a>
+                <a href="{{ page.categories | prepend: '\'}}"> {{ post.categories | array_to_sentence_string | prepend: 'on ' }} </a>
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%d-%m-%Y" }}">
                 {{ post.date | date_to_string }}
