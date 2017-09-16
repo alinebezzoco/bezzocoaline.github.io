@@ -14,3 +14,9 @@ gems: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'https://bezzocoaline.github.io/'
 author:         'Aline Bezzoco'
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: bezzocoaline
